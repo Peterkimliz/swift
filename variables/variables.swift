@@ -1,5 +1,4 @@
 import Foundation
-
 // declaring variable can be done into two ways in swift using var or let
 //var is mutable while let is immutable 
 var myname = "Peter";
