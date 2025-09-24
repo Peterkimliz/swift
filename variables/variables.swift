@@ -3,11 +3,9 @@ import Foundation
 //var is mutable while let is immutable 
 var myname = "Peter";
 myname = "Peter kim"
-
-let myAge = 30;
+let myAge = 60;
 //myAge=56 will throw an error since you cannnot modify  the value of let once assigned 
 let date = Date()
-
 print("\(myname) you are \(myAge) years old as of \(date)")
 
 let userType:String
