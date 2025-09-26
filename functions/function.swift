@@ -1,5 +1,4 @@
 import Foundation
-
 /// creating a basic  fuction in swift we use func keyword followed by the function name  
 func addTwoNumbers(){
     let num1 = 20
@@ -11,7 +10,7 @@ func addTwoNumbers(){
 addTwoNumbers()
 
 /// creating  a function with return type  ///
-func findLargestNumber(num1:Int, num2:Int, num3:Int)->Int{
+func findLargestNumber(num1:Int,num2:Int,num3:Int)->Int{
     if(num1>num2 && num1>num3){
        return num1
     }
